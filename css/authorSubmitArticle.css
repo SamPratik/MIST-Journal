@@ -1,0 +1,32 @@
+@font-face {
+	font-family:lobster;
+	src:url(../fonts/Lobster_1.3.otf);	
+}
+
+* {
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+
+.author-submit-article-container {
+	background-color:#f1f1f1;
+	width:80%;
+	margin:0px auto 10px auto;
+	position:relative;
+	top:110px;	
+	padding:0px 135px 0px 135px;
+}
+
+.author-submit-article-container h1 {
+	width:100%;
+	position:relative;
+	text-align:center;
+	font-family:lobster;
+	font-size:70px;
+	color:#32CD99;
+	text-shadow:0px 5px 5px black;
+}
+
+
+

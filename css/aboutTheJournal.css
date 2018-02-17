@@ -1,0 +1,215 @@
+/* CSS Document */
+
+/* CSS Document */
+
+* {
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;	
+}
+
+
+/*========================
+	Navigation Bar
+========================*/
+
+a {
+	color: #00b1dc;
+	text-decoration: none;
+}
+
+.topNavbar {
+	position:fixed !important;	
+}
+
+a:hover {
+	color: #0097bc;
+}
+
+a.header-link {
+	margin-left:5px;
+	color:white;
+}
+
+a.active {
+	background-color:#f44336;	
+}
+
+.w3-dropdown-content a {
+	color:black;	
+}
+
+
+
+/*===========================
+	content
+===========================*/
+
+@-webkit-keyframes heightAnimation {
+	0% {height:0px;}
+	100% {height:360px;}	
+}
+
+@keyframes heightAnimation {
+	0% {height:0px;}
+	100% {height:360px;}	
+}
+
+.content {
+	position:relative;
+	min-height:500px;
+	background-color:white;
+	top:100px;
+	padding-bottom:25px;
+}
+
+.policy {
+	position:relative;
+	height:360px;
+	border-radius:15px;
+	padding:25px 40px;
+	text-align:justify;
+	box-shadow:0px 0px 10px black;
+	overflow:hidden;
+}
+
+.cover {
+	border-radius:15px;
+	background-color:rgba(30,31,38,1);	
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+	transition:background-color .5s linear;
+	-webkit-animation:heightAnimation .5s linear;
+	animation:heightAnimation .5s linear;
+}
+
+.cover h1 {
+	position:relative;
+	height:40px;
+	text-align:center;
+	top:50%;
+	margin-top:-40px;
+	font-weight:bold;
+	opacity:1;
+	color:white;
+	/*-webkit-transform:rotate(-45deg);
+	transform:rotate(-45deg);*/
+	-webkit-transition:opacity .5s linear;
+	transition:opacity .5s linear;
+}
+
+.policy:hover .cover {
+	background-color:rgba(30,31,38,0);	
+}
+
+.policy:hover .cover h1 {
+	opacity:0;	
+}
+
+.first-policy {
+	margin-top:25px;	
+}
+
+.policy:not(.first-policy) {
+	margin:25px 0px 0px 0px;	
+}
+
+.w3-row-padding {
+	position:relative;	
+}
+
+
+/*===========================
+	footer
+===========================*/
+
+@font-face {
+	font-family:glamor;
+	src:url(../fonts/Glamor%20-%20TTF/Glamor-Regular.ttf);	
+}
+
+@font-face {
+	font-family:glamor;
+	src:url(../fonts/Glamor%20-%20TTF/Glamor-Bold.ttf);	
+}
+
+.footer {
+	width:100%;
+	min-height:400px;
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+	padding:25px 50px;
+	background-color:#22282A;	
+	position:relative;
+	top:100px;	
+}
+
+.contact {
+	width:33.33%;
+	min-height:200px;
+	float:left;
+	padding:25px;
+}
+
+.contact p {
+	color:white;	
+}
+
+.subscribe {
+	width:33.33%;
+	min-height:200px;
+	float:left;	
+	padding:25px;
+}
+
+.subscribe p {
+	color:white;	
+}
+
+.choose-mist {
+	width:33.33%;
+	min-height:200px;
+	float:left;	
+	padding:25px;
+}
+
+.choose-mist p {
+	position:relative;
+	top:27px;	
+}
+
+.footer h3 {
+	text-align:center;	
+	font-family:glamor;
+	color:#A2C523;
+}
+
+input[type="submit"] {
+	position:relative;
+	top:8px;
+	display:block;
+	margin:auto;
+}
+
+.icons {
+	text-align:center;
+	color:white;	
+	position:relative;
+	top:30px;
+}
+
+.icons i {
+	padding:8px;
+	width:40px;
+	height:40px;
+	cursor:pointer;	
+	border-radius:5px;
+}
+
+.choose-mist p {
+	color:white;
+	text-align:justify;	
+}

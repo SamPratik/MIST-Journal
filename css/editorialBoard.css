@@ -1,0 +1,156 @@
+/* CSS Document */
+
+* {
+	box-sizing:border-box;
+	padding:0px;
+	margin:0px;	
+}
+
+@font-face {
+	font-family:glamor;
+	src:url(../fonts/Glamor%20-%20TTF/Glamor-Regular.ttf);	
+}
+
+@font-face {
+	font-family:glamor;
+	src:url(../fonts/Glamor%20-%20TTF/Glamor-Bold.ttf);	
+}
+
+/*====================
+	Navigation Bar
+===================*/
+a {
+	color: #00b1dc;
+	text-decoration: none;
+}
+a:hover {
+	color: #0097bc;
+}
+.notice {
+	min-height:200px;
+	width:47.5%;
+	float:left;
+	position:relative;
+	background-color:white;	
+	padding:50px 0px;
+	box-shadow: 0px 0px 10px black;
+}
+a.header-link {
+	margin-left:5px;
+	color:white;
+}
+
+a.active {
+	background-color:#f44336;	
+}
+
+.w3-dropdown-content a {
+	color:black;	
+}
+
+/*======================
+	content
+======================*/
+
+.content {
+	width:100%;
+	position:relative;
+	padding-top:50px;
+	padding-bottom:100px;
+}
+
+.w3-accordion {
+	position:relative;
+	display:block;
+	margin:auto;
+	width:80%;
+	box-shadow:0px 0px 10px black;
+	border-radius:15px;
+	top:75px;
+}
+
+
+
+/*===========================
+	footer
+===========================*/
+
+.footer {
+	width:100%;
+	min-height:400px;
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+	padding:25px 50px;
+	background-color:#22282A;		
+}
+
+.contact {
+	width:33.33%;
+	min-height:200px;
+	float:left;
+	padding:25px;
+}
+
+.contact p {
+	color:white;	
+}
+
+.subscribe {
+	width:33.33%;
+	min-height:200px;
+	float:left;	
+	padding:25px;
+}
+
+.subscribe p {
+	color:white;	
+}
+
+.choose-mist {
+	width:33.33%;
+	min-height:200px;
+	float:left;	
+	padding:25px;
+}
+
+.choose-mist p {
+	position:relative;
+	top:27px;	
+}
+
+.footer h3 {
+	text-align:center;	
+	font-family:glamor;
+	color:#A2C523;
+}
+
+input[type="submit"] {
+	position:relative;
+	top:8px;
+	display:block;
+	margin:auto;
+}
+
+.icons {
+	text-align:center;
+	color:white;	
+	position:relative;
+	top:30px;
+}
+
+.icons i {
+	padding:8px;
+	width:40px;
+	height:40px;
+	cursor:pointer;	
+	border-radius:5px;
+}
+
+/*==========================
+	choose-mist
+==========================*/
+
+.choose-mist p {
+	color:white;
+	text-align:justify;	
+}

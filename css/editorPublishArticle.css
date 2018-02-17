@@ -1,0 +1,22 @@
+
+@font-face {
+	font-family:lobster;
+	src:url(../fonts/Lobster_1.3.otf);	
+}
+
+.reviewer-publish-article-container h1 {
+	font-family:lobster;
+	text-align:center;
+	font-size:50px;
+	color:#32CD99;
+}
+
+.reviewer-publish-article-container {
+	position:relative;
+	top:110px;
+	width:80%;
+	margin: 0px auto 10px auto;
+	display:block;
+	min-height:500px;
+	/*background-color:grey;	*/
+}
